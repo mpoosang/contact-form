@@ -1,0 +1,43 @@
+main h1 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* Groups & Items  (Mobile First) */
+
+.group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* ---  (Desktop) Groups & Items --- */
+
+@media all and (min-width: 800px) {
+    section {
+      padding: 0 10%;
+    }
+
+    .group {
+      flex-direction: row;
+    }
+  }
+
+
+/* ---  Contact Form Design --- */
+
+form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #000000;
+    font-family: arial;
+  }
+
+  form input, form textarea {
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
